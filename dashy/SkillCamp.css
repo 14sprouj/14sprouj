@@ -1,7 +1,12 @@
 @import url('https://raw.githubusercontent.com/14sprouj/14sprouj/dashy/dashy/dashy.css');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&display=swap');
+
+--font-headings: {
+  font-family: "Baloo 2","Baloo","Podkova","Roboto",sans-serif;
+}
+
 h1 {
-  font-family: "Baloo 2", "Baloo",
+  font-family: "Baloo 2", "Baloo";
 }
 
 .there-are-items[data-v-78612a5e] .sub-items-group, .sub-items-group[data-v-56a3953c] {
