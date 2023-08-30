@@ -1,0 +1,26 @@
+{
+  "name": "14sprouj",
+  "version": "1.0.0",
+  "description": "**Name** Joel Sprouse [He/Him]",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass dashy:dashy",
+	"lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/14sprouj/14sprouj.git"
+  },
+  "author": "Joel Sprouse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/14sprouj/14sprouj/issues"
+  },
+  "homepage": "https://github.com/14sprouj/14sprouj#readme",
+  "dependencies": {
+    "eslint": "^8.48.0",
+    "sass": "^1.66.1",
+    "scss": "^0.2.4"
+  }
+}
