@@ -14,3 +14,6 @@ html[data-theme=argon] .widget-list[data-v-78612a5e][data-v-2ebbab81] {
   align-items: center;
   align-content: center;
 }
+.weather .intro[data-v-7f035946] {
+  gap: 1em;
+}
