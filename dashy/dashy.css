@@ -1,16 +1,19 @@
 
-html[data-theme=argon] .widget-list {
+.widget-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
 }
-html[data-theme=argon] .widget-list[data-v-78612a5e][data-v-2ebbab81] {
+.widget-list[data-v-78612a5e][data-v-2ebbab81] {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   align-content: center;
+}
+.weather .intro[data-v-7f035946] {
+  gap: 1em;
 }
