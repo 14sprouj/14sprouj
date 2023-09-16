@@ -1,5 +1,5 @@
 @import url("https://raw.githubusercontent.com/14sprouj/14sprouj/dashy/dashy/dashy.css");
-@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
 html[data-theme=adventure-basic] --font-headings {
   font-family: "Baloo 2", "Baloo", "Podkova", "Roboto", sans-serif;
 }

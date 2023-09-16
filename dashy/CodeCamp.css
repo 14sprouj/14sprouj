@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
+html {
+	--item-group-background: #0b1021;
+    --item-background: #141b33;
+    --item-background-hover: var(--background-darker);
+    --item-hover-shadow: 0 0.4px 1.2px rgba(150,96,236,0.7019607843137254),0 1px 2px rgba(150,96,236,0.7490196078431373);
+    --primary: #f7f7f7;
+    --item-group-outer-background: #9660ec linear-gradient(45deg,#bdbdbd 2%,#d8d8d9 51%,#e3e2e5);
+	--background: #1c1c1c;
+    --background-darker: #060913;
+    --font-headings: ,"Baloo 2","Baloo","PTMono","Courier New",cursive,monospace;
+}
