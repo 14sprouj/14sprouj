@@ -12,3 +12,18 @@ html {
     --font-headings: ,"Baloo 2","Baloo","PTMono","Courier New",cursive,monospace;
 	--item-group-heading-text-color: #f4f4f4;
 }
+.widget-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.widget-list[data-v-78612a5e][data-v-2ebbab81] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
