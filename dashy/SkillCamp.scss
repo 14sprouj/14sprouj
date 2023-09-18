@@ -1,7 +1,15 @@
 @import url('https://raw.githubusercontent.com/14sprouj/14sprouj/dashy/dashy/dashy.css');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800;800&display=swap');
 
-html[data-theme='adventure-basic'] {
+html {
+	--scriptcamp-color: #E8B944;
+	--wordcamp-color: #42E8B0;
+	--filmcamp-color: #FF9138;
+	--creatorcamp-color: #FDA4A5;
+	--tooncamp-color: #C644E1;
+	--codecamp-color: #0A0A0A;
+	--lingocamp-color: #75FA5B;
+
 	--font-headings {
 	font-family: "Baloo 2","Baloo","Podkova","Roboto",sans-serif;
 	}
@@ -28,5 +36,32 @@ html[data-theme='adventure-basic'] {
 		-webkit-filter: var(--item-icon-transform);
 		filter: var(--item-icon-transform);
 		border-radius: var(--curve-factor);
+	}
+
+	nav a[href="/home/filmcamp"] {
+		background-color: --filmcamp-color;
+	}
+
+	.widget-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: row;
+	}
+
+	.widget-list[data-v-78612a5e][data-v-2ebbab81] {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		align-content: center;
+	}
+
+	.section_skillcamp, .section_scriptcamp, .section_wordcamp, .section_filmcamp, .section_creatorcamp, .section_tooncamp { 
+		label {
+			color: black;
+		}
 	}
 }
