@@ -1,23 +1,18 @@
 @import url("./dashy.css");
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800;800&display=swap");
 html {
-	--scriptcamp-color: #E8B944;
-	--wordcamp-color: #42E8B0;
-	--filmcamp-color: #FF9138;
-	--creatorcamp-color: #FDA4A5;
-	--tooncamp-color: #C644E1;
-	--codecamp-color: #0A0A0A;
-	--lingocamp-color: #75FA5B;
+  --background: #8c8b8d;
+  --item-background: #ffffff;
+  --scriptcamp-color: #E8B944;
+  --wordcamp-color: #42E8B0;
+  --filmcamp-color: #FF9138;
+  --creatorcamp-color: #FDA4A5;
+  --tooncamp-color: #C644E1;
+  --codecamp-color: #0A0A0A;
+  --lingocamp-color: #75FA5B;
+  --font-headings: "Baloo 2","Baloo","Podkova","Roboto",sans-serif;
 }
-
-html --font-headings {
-  font-family: "Baloo 2", "Baloo", "Podkova", "Roboto", sans-serif;
-}
-html h1 {
-  font-family: "Baloo 2", "Baloo";
-}
-html .there-are-items[data-v-78612a5e] .sub-items-group, html[data-theme=adventure-basic] .sub-items-group[data-v-56a3953c] {
+html .there-are-items[data-v-78612a5e] .sub-items-group, html .sub-items-group[data-v-56a3953c] {
   flex-basis: initial;
 }
 html .tile-icon.small {
@@ -35,20 +30,17 @@ html .tile-icon {
   filter: var(--item-icon-transform);
   border-radius: var(--curve-factor);
 }
-
-nav a[href="/home/filmcamp"] {
-	background-color: --filmcamp-color;
+html nav a[href="/home/filmcamp"] {
+  background-color: --filmcamp-color;
 }
-
-.widget-list {
+html .widget-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
 }
-
-.widget-list[data-v-78612a5e][data-v-2ebbab81] {
+html .widget-list[data-v-78612a5e][data-v-2ebbab81] {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -56,10 +48,15 @@ nav a[href="/home/filmcamp"] {
   align-items: center;
   align-content: center;
 }
-
-.section_skillcamp label, .section_scriptcamp label, .section_wordcamp label, .section_filmcamp label, .section_creatorcamp label, .section_tooncamp label {
+html .section_skillcamp label, html .section_scriptcamp label, html .section_wordcamp label, html .section_filmcamp label, html .section_creatorcamp label, html .section_tooncamp label {
   color: black;
 }
-
+html .section_codecamp label {
+  color: white;
+}
+html .section_lingocamp label {
+  color: var(--lingocamp-color);
+  background-color: #010101;
+}
 
 /*# sourceMappingURL=SkillCamp.css.map */
