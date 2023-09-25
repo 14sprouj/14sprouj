@@ -1,4 +1,3 @@
-@import url("./dashy.css");
 @import url("https://cdn.jsdelivr.net/gh/14sprouj/14sprouj@main/dashy/dashy.css");
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800;800&display=swap");
 html {
@@ -32,6 +31,14 @@ html .tile-icon {
   -webkit-filter: var(--item-icon-transform);
   filter: var(--item-icon-transform);
   border-radius: var(--curve-factor);
+}
+html .tile-title {
+  font-weight: 600;
+  white-space: wrap;
+  max-width: 90%;
+}
+html .tile-title .text {
+  white-space: wrap;
 }
 html nav a[href="/home/scriptcamp"] {
   background-color: var(--scriptcamp-color);
@@ -82,6 +89,7 @@ html .section_lingocamp label {
 html .no-items {
   background-color: inherit;
   color: white;
+  padding: 1.65rem;
 }
 
 /*# sourceMappingURL=SkillCamp.css.map */
