@@ -1,9 +1,13 @@
 @import url('./dashy.css');
+@import url('https://cdn.jsdelivr.net/gh/14sprouj/14sprouj@main/dashy/dashy.css');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800;800&display=swap');
 
 html {
 	--background: #8c8b8d;
 	--item-background: #ffffff;
+	--primary: #000000;
+	--item-group-outer-background: #ffffff;
+
 	--scriptcamp-color: #E8B944;
 	--wordcamp-color: #42E8B0;
 	--filmcamp-color: #FF9138;
@@ -34,8 +38,28 @@ html {
 		border-radius: var(--curve-factor);
 	}
 
-	nav a[href="/home/filmcamp"] {
-		background-color: --filmcamp-color;
+	nav {
+		a[href='/home/scriptcamp'] {
+			background-color: var(--scriptcamp-color);
+		}
+		a[href='/home/wordcamp'] {
+			background-color: var(--wordcamp-color);
+		}
+		a[href='/home/filmcamp'] {
+			background-color: var(--filmcamp-color);
+		}
+		a[href="/home/codecamp"] {
+			background-color: var(--codecamp-color);
+		}
+		a[href='/home/creatorcamp'] {
+			background-color: var(--creatorcamp-color);
+		}
+		a[href='/home/tooncamp'] {
+			background-color: var(--tooncamp-color);
+		}
+		a[href='/home/lingocamp'] {
+			background-color: var(--lingocamp-color);
+		}
 	}
 
 	.widget-list {
@@ -68,5 +92,9 @@ html {
 	.section_lingocamp label {
 		color: var(--lingocamp-color);
 		background-color: #010101;
+	}
+	.no-items {
+		background-color: inherit;
+		color: white;
 	}
 }
