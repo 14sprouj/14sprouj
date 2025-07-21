@@ -1,0 +1,37 @@
+# BBC iPlayer ads
+vod-dash-uk.live.cf.md.bbci.co.uk
+
+
+# ITV ads
+cpt.itv.com
+toots-a.akamaihd.net
+api.lab.eu.amplitude.com
+822d428ad6a0a99e585ae79b04746ccfc541cad1.cws.conviva.com
+ar.prd.content.itv.com
+europe-west1-itv-ds-prd.cloudfunctions.net
+
+# Channel 4 ads
+ads-pres.channel4.com
+cdn.http.anno.channel4.com
+cdn.ss.anno.channel4.com
+toots-a.akamaihd.net
+trk-euwest.tidaltv.com
+2356e.v.fwmrm.net
+p.videologygroup.com
+securecdn.videologygroup.com
+c4ios.2cnt.net
+channel4.sc.omtrdc.net
+c4-ads-creative-prod.s3-eu-west-1.amazonaws.com
+c4-ads-creative-prod.s3.eu-west-1.amazonaws.com
+
+# NEEDED FOR UKTV PLAY - doesn't seem necessary to block this for All4 any more
+#2a7e9.v.fwmrm.net
+
+# Amazon Prime Video ads
+amazon-adsystem.com
+amazon-adsystem.com.edgesuite.net
+amazon-adsystem.com.edgekey.net
+amazon-adsystem.com.edgekey-staging.net
+attester.amazon-ads-attestation.com
+origin.amazon-ads-attestation.com
+q419zmlyfb4fa0.eu.api.amazonvideo.com
