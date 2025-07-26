@@ -34,4 +34,5 @@ amazon-adsystem.com.edgekey.net
 amazon-adsystem.com.edgekey-staging.net
 attester.amazon-ads-attestation.com
 origin.amazon-ads-attestation.com
-q419zmlyfb4fa0.eu.api.amazonvideo.com
+monitoring.us-east-1.amazonaws.com
+monitoring.eu-west-1.amazonaws.com
