@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/14sprouj/14sprouj#readme",
   "dependencies": {
-    "eslint": "^8.48.0",
+    "eslint": "^9.26.0",
     "sass": "^1.66.1",
     "scss": "^0.2.4"
   }
